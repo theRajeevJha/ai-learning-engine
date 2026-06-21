@@ -1,0 +1,150 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "ai-learning-engine:generated",
+  "elements": [
+    {
+      "id": "frontend-box",
+      "type": "rectangle",
+      "x": 60,
+      "y": 80,
+      "width": 180,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": 8,
+      "boundElements": [{ "type": "text", "id": "frontend-text" }]
+    },
+    {
+      "id": "frontend-text",
+      "type": "text",
+      "x": 80,
+      "y": 100,
+      "text": "Frontend (Web / Mobile)",
+      "fontSize": 16,
+      "containerId": "frontend-box"
+    },
+
+    {
+      "id": "api-box",
+      "type": "rectangle",
+      "x": 320,
+      "y": 60,
+      "width": 220,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#7048e8",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": 8,
+      "boundElements": [{ "type": "text", "id": "api-text" }]
+    },
+    {
+      "id": "api-text",
+      "type": "text",
+      "x": 340,
+      "y": 86,
+      "text": "API Layer (REST / GraphQL)",
+      "fontSize": 16,
+      "containerId": "api-box"
+    },
+
+    {
+      "id": "core-cluster",
+      "type": "rectangle",
+      "x": 620,
+      "y": 30,
+      "width": 320,
+      "height": 260,
+      "angle": 0,
+      "strokeColor": "#c92a2a",
+      "backgroundColor": "#fff3bf",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roundness": 10
+    },
+
+    {
+      "id": "mastery-box",
+      "type": "rectangle",
+      "x": 640,
+      "y": 60,
+      "width": 150,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": 8,
+      "boundElements": [{ "type": "text", "id": "mastery-text" }]
+    },
+    {
+      "id": "mastery-text",
+      "type": "text",
+      "x": 660,
+      "y": 84,
+      "text": "Mastery Engine",
+      "fontSize": 14,
+      "containerId": "mastery-box"
+    },
+
+    {
+      "id": "kg-box",
+      "type": "rectangle",
+      "x": 820,
+      "y": 60,
+      "width": 140,
+      "height": 64,
+      "angle": 0,
+      "strokeColor": "#7048e8",
+      "backgroundColor": "#e599f7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": 8,
+      "boundElements": [{ "type": "text", "id": "kg-text" }]
+    },
+    {
+      "id": "kg-text",
+      "type": "text",
+      "x": 840,
+      "y": 84,
+      "text": "Knowledge Graph",
+      "fontSize": 14,
+      "containerId": "kg-box"
+    },
+
+    {
+      "id": "arrow-frontend-api",
+      "type": "arrow",
+      "x": 240,
+      "y": 120,
+      "points": [[0,0],[80, -20],[160, -20]],
+      "strokeColor": "#7dd3fc",
+      "roughness": 0,
+      "elbowed": true,
+      "roundness": null,
+      "strokeWidth": 2
+    },
+
+    {
+      "id": "arrow-api-core",
+      "type": "arrow",
+      "x": 540,
+      "y": 110,
+      "points": [[0,0],[60, -20],[120, -20]],
+      "strokeColor": "#7dd3fc",
+      "roughness": 0,
+      "elbowed": true,
+      "roundness": null,
+      "strokeWidth": 2
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
